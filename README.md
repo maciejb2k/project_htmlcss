@@ -1,1 +1,4 @@
-# Projekt na zaliczenie HTML i CSS na przedmiot Technologie Internetowe
+# Projekt TI
+Projekt na zaliczenie części **HTML i CSS** z przedmiotu Technologie Internetowe
+
+Link: https://ti-project-htmlcss.vercel.app
