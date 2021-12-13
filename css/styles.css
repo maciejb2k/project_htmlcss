@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  background-color: #15181d;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.Wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Header {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1b1f24;
+}
+
+.Header-left {
+  display: flex;
+  align-items: center;
+}
+
+.Header-logoWrapper {
+  padding-right: 30px;
+}
+
+.Header-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.HeaderNav {
+}
+
+.HeaderNav-list {
+  display: flex;
+}
+
+.HeaderNav-listItem {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.HeaderNav-listAnchor {
+  padding: 20px;
+  color: #4b4d51;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+
+.HeaderNav-listAnchor:hover {
+  color: #ffffff;
+}
+
+.HeaderNav-listItem--active {
+  color: #ffffff;
+}
+
+.Header-buttonsGroup {
+  display: flex;
+}
+
+.Header-button {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 30px;
+  border: 0;
+  background: 0;
+}
+
+.Header-button:hover {
+  cursor: pointer;
+}
+
+.Header-buttonIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.Wrapper-main {
+  display: flex;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #1b1f24;
+}
+
+.Aside {
+  padding-top: 50px;
+  padding-right: 50px;
+  width: 20%;
+}
+
+.Aside-group {
+  padding-bottom: 50px;
+}
+
+.Aside-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.AsideNav {
+}
+
+.AsideNav-list {
+}
+
+.AsideNav-listItem {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.AsideNav-listItem--active {
+}
+
+.AsideNav-listAnchor {
+  color: #4b4d51;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+
+.AsideNav-listAnchor:hover {
+  color: #ffffff;
+}
+
+.Main {
+  padding-left: 50px;
+  border-left: 1px solid #1b1f24;
+  width: 80%;
+}
+
+.Main-title {
+  padding: 50px 0;
+  font-weight: 600;
+}
+
+.MainHeader {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MainHeader-left {
+}
+
+.MainHeader-dropdown {
+  background: 0;
+  border: 2px solid #1e2127;
+  border-radius: 5px;
+  height: 42px;
+  padding-left: 12px;
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.MainHeader-right {
+  display: flex;
+  align-items: center;
+}
+
+.MainHeader-buttonsGroup {
+  display: flex;
+  padding-right: 30px;
+}
+
+.MainHeader-button {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 20px;
+  border: 0;
+  background: 0;
+}
+
+.MainHeader-button:hover {
+  cursor: pointer;
+}
+
+.MainHeader-buttonIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.MainHeader-search {
+  display: flex;
+  height: 42px;
+}
+
+.MainHeader-searchInput {
+  background: #1b1f25;
+  border: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: 600;
+  color: white;
+  padding: 0 20px;
+  width: 250px;
+  max-width: 250px;
+}
+
+.MainHeader-searchInput::placeholder {
+  color: #4c4e50;
+  font-weight: 600;
+}
+
+.MainHeader-searchSubmit {
+  background: #1b1f25;
+  border: 0;
+  padding: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.MainHeader-searchSubmitIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.Games {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GamesItem {
+  width: 220px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+.GamesItem-photoWrapper {
+  width: 220px;
+  height: 320px;
+  margin-bottom: 12px;
+}
+
+.GamesItem-photo {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.GamesItem-title {
+  padding-bottom: 5px;
+}
+
+.GamesItem-desc {
+  color: #3e4145;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.Ads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.Ad {
+  width: 45%;
+  background-color: #1e2127;
+  padding: 40px 50px;
+  position: relative;
+  height: 400px;
+  max-height: 400px;
+}
+
+.Ad-photo {
+  position: absolute;
+}
+
+.Ad-photo--controller {
+  width: 380px;
+  height: auto;
+  right: -80px;
+  bottom: -10px;
+}
+
+.Ad-photo--bf {
+  width: 200px;
+  height: auto;
+  right: 30px;
+  bottom: 10px;
+}
+
+.Ad-title {
+  font-size: 3rem;
+  padding-bottom: 30px;
+  max-width: 350px;
+}
+
+.Ad-desc {
+  font-size: 1.4rem;
+  line-height: 20px;
+  padding-bottom: 30px;
+  max-width: 250px;
+  color: #5f6063;
+}
+
+.Ad-button {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2c2e34;
+  border: 0;
+  padding: 20px 40px;
+}
+
+.Footer {
+  background-color: #111316;
+}
+
+.Footer-wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterTop {
+  padding: 50px 0;
+}
+
+.FooterTop-left {
+  max-width: 300px;
+}
+
+.FooterTop-title {
+  padding-bottom: 30px;
+  font-size: 3rem;
+}
+
+.FooterTop-desc {
+  padding-bottom: 40px;
+  font-size: 1.4rem;
+  color: #5f6063;
+}
+
+.FooterTop-button {
+  padding: 12px 40px;
+  background: white;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  color: black;
+}
+
+.FooterTop-right {
+  display: flex;
+}
+
+.FooterTop-col {
+}
+
+.FooterTop-col--logo {
+}
+.FooterTop-col--nav {
+  margin-right: 50px;
+}
+.FooterTop-col--address {
+  margin-left: 50px;
+}
+
+.FooterTop-colTitle {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.FooterTop-navList {
+}
+
+.FooterTop-navListItem {
+  color: #8a8c90;
+  margin-bottom: 10px;
+}
+
+.FooterTop-navListAnchor {
+  color: #8a8c90;
+  text-decoration: none;
+}
+
+.FooterTop-adrressBlock {
+  color: #676869;
+}
+
+.FooterBottom {
+  background-color: black;
+  padding: 15px 0;
+}
+
+.FooterBottom-copyright {
+  font-size: 1.4rem;
+  color: #676869;
+}
+
+.FooterBottom-socialButtons {
+  display: flex;
+}
+
+.FooterBottom-button {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 2px;
+}
+
+.FooterBottom-buttonIcon {
+  width: 100%;
+  height: 100%;
+}

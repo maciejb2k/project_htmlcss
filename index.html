@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>G4M3R Shop</title>
+  </head>
+  <body>
+    <div class="Wrapper">
+      <header class="Header">
+        <div class="Header-left">
+          <div class="Header-logoWrapper">
+            <img
+              class="Header-logo"
+              src="img/logo.png"
+              alt="Świecący trójkąt"
+            />
+          </div>
+          <nav class="HeaderNav">
+            <ul class="HeaderNav-list">
+              <li class="HeaderNav-listItem HeaderNav-listItem--active">
+                <a class="HeaderNav-listAnchor" href="#">Home</a>
+              </li>
+              <li class="HeaderNav-listItem">
+                <a class="HeaderNav-listAnchor" href="#">Opinie</a>
+              </li>
+              <li class="HeaderNav-listItem">
+                <a class="HeaderNav-listAnchor" href="#">Regulamin</a>
+              </li>
+              <li class="HeaderNav-listItem">
+                <a class="HeaderNav-listAnchor" href="#">Wsparcie</a>
+              </li>
+              <li class="HeaderNav-listItem">
+                <a class="HeaderNav-listAnchor" href="#"
+                  >Polityka Prywatności</a
+                >
+              </li>
+              <li class="HeaderNav-listItem">
+                <a class="HeaderNav-listAnchor" href="#">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="Header-buttonsGroup">
+          <button class="Header-button">
+            <img
+              class="Header-buttonIcon"
+              src="img/icon-user.png"
+              alt="icon of user"
+            />
+          </button>
+          <button class="Header-button">
+            <img
+              class="Header-buttonIcon"
+              src="img/icon-cart.png"
+              alt="icon of cart"
+            />
+          </button>
+          <button class="Header-button">
+            <img
+              class="Header-buttonIcon"
+              src="img/icon-gear.png"
+              alt="icon of gear"
+            />
+          </button>
+        </div>
+      </header>
+      <div class="Wrapper-main">
+        <aside class="Aside">
+          <div class="Aside-group">
+            <h2 class="Aside-title">Kategoria</h2>
+            <nav class="AsideNav">
+              <ul class="AsideNav-list">
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Wszystkie</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Bijatyki</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Strzelanki</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry platformowe</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry przygodowe</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Skradanki</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">RPG</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">MMORPG</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">MOBA</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry sportowe</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry strategiczne</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry logiczne</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Gry edukacyjne</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="Aside-group">
+            <h2 class="Aside-title">Platforma</h2>
+            <nav class="AsideNav">
+              <ul class="AsideNav-list">
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">PC</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Xbox One</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Playstation 4</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Playstation 5</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Steam</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Origin</a>
+                </li>
+                <li class="AsideNav-listItem">
+                  <a class="AsideNav-listAnchor" href="#">Nintendo Switch</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+        <main class="Main">
+          <h1 class="Main-title">Wszystkie Gry</h1>
+          <header class="MainHeader">
+            <div class="MainHeader-left">
+              <select class="MainHeader-dropdown" name="" id="">
+                <option value="">Popularność</option>
+                <option value="">Alfabetycznie A-Z</option>
+                <option value="">Alfabetycznie Z-A</option>
+                <option value="">Najtańsze</option>
+                <option value="">Najdroższe</option>
+              </select>
+            </div>
+            <div class="MainHeader-right">
+              <div class="MainHeader-buttonsGroup">
+                <button class="MainHeader-button">
+                  <img
+                    class="MainHeader-buttonIcon"
+                    src="img/icon-list.png"
+                    alt="icon of list"
+                  />
+                </button>
+                <button class="MainHeader-button">
+                  <img
+                    class="MainHeader-buttonIcon"
+                    src="img/icon-grid.png"
+                    alt="icon of grid"
+                  />
+                </button>
+              </div>
+              <div class="MainHeader-search">
+                <input
+                  placeholder="Szukaj"
+                  type="text"
+                  class="MainHeader-searchInput"
+                />
+                <button class="MainHeader-searchSubmit">
+                  <img
+                    class="MainHeader-searchSubmitIcon"
+                    src="img/icon-search.png"
+                    alt="icon of magnifier"
+                  />
+                </button>
+              </div>
+            </div>
+          </header>
+          <div class="Games">
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-dirtrally.png"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Dirt Rally</h4>
+              <p class="GamesItem-desc">CodeMasters</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-starwarsbf2.png"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Star Wars BF2 ...</h4>
+              <p class="GamesItem-desc">Electronic Arts</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-warzone.jpg"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">CoD: Warzone</h4>
+              <p class="GamesItem-desc">Activision</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-nfs.jpg"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Need For Speed</h4>
+              <p class="GamesItem-desc">Electronic Arts</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-fifa2021.png"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">FIFA 2021</h4>
+              <p class="GamesItem-desc">Electronic Arts</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-halo.jpg"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Halo Infinite</h4>
+              <p class="GamesItem-desc">Xbox Game Studios</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-aoe4.jpg"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Age of Empires IV</h4>
+              <p class="GamesItem-desc">Microsoft Studios</p>
+            </div>
+            <div class="GamesItem">
+              <div class="GamesItem-photoWrapper">
+                <img
+                  src="img/game-bf1.png"
+                  alt="game cover"
+                  class="GamesItem-photo"
+                />
+              </div>
+              <h4 class="GamesItem-title">Battlefield 1</h4>
+              <p class="GamesItem-desc">Electronic Arts</p>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="Ads">
+        <div class="Ad">
+          <img
+            src="img/xbox.png"
+            alt="xbox controller"
+            class="Ad-photo Ad-photo--controller"
+          />
+          <h3 class="Ad-title">Nowy Kontroler Dla Xboxa</h3>
+          <p class="Ad-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            recusandae laboriosam dicta reprehenderit non, explicabo maxime sunt
+            vero quisquam blanditiis.
+          </p>
+          <button class="Ad-button">Kup</button>
+        </div>
+        <div class="Ad">
+          <img
+            src="img/bf.png"
+            alt="xbox controller"
+            class="Ad-photo Ad-photo--bf"
+          />
+          <h3 class="Ad-title">Dołącz do wielkiej rozgrywki</h3>
+          <p class="Ad-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            recusandae laboriosam dicta reprehenderit non, explicabo maxime sunt
+            vero quisquam blanditiis.
+          </p>
+          <button class="Ad-button">Dołącz</button>
+        </div>
+      </div>
+    </div>
+    <footer class="Footer">
+      <div class="FooterTop">
+        <div class="Footer-wrapper">
+          <div class="FooterTop-left">
+            <h2 class="FooterTop-title">G4M3R Shop</h2>
+            <p class="FooterTop-desc">
+              Jesteśmy największym w polsce dystrybutorem cyfrowych gier wideo
+              na wszystkie dostępne platformy.
+            </p>
+            <button class="FooterTop-button">Newsletter</button>
+          </div>
+          <div class="FooterTop-right">
+            <div class="FooterTop-col FooterTop-col--nav">
+              <h3 class="FooterTop-colTitle">O nas</h3>
+              <ul class="FooterTop-navList">
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Home</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Wszystkie Gry</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#"
+                    >Polityka Prywatności</a
+                  >
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Regulamin</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Partnerstwo</a>
+                </li>
+              </ul>
+            </div>
+            <div class="FooterTop-col FooterTop-col--nav">
+              <h3 class="FooterTop-colTitle">Konto</h3>
+              <ul class="FooterTop-navList">
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Moje Konto</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#"
+                    >Moje Zamówienia</a
+                  >
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Moje Gry</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">Lista życzeń</a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#">
+                    Sprawdź zamówienie
+                  </a>
+                </li>
+                <li class="FooterTop-navListItem">
+                  <a class="FooterTop-navListAnchor" href="#"> Daily Punkty </a>
+                </li>
+              </ul>
+            </div>
+            <div class="FooterTop-col FooterTop-col--address">
+              <h3 class="FooterTop-colTitle">Adres</h3>
+              <p class="FooterTop-adrressBlock">ul. Hetmańska 2</p>
+              <p class="FooterTop-adrressBlock">35-001, Rzeszów</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="FooterBottom">
+        <div class="Footer-wrapper">
+          <p class="FooterBottom-copyright">Copyright &copy; G4M3R Shop 2021</p>
+          <div class="FooterBottom-socialButtons">
+            <a class="FooterBottom-button" href="#">
+              <img
+                src="img/icon-fb.png"
+                alt="facebook logo"
+                class="FooterBottom-buttonIcon"
+              />
+            </a>
+            <a class="FooterBottom-button" href="#">
+              <img
+                src="img/icon-yt.png"
+                alt="youtube logo"
+                class="FooterBottom-buttonIcon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
