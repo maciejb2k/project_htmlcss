@@ -34,14 +34,19 @@ a:hover {
   text-decoration: underline;
 }
 
+button {
+  font-family: inherit;
+}
+
 button:hover {
   cursor: pointer;
 }
 
 .Wrapper {
-  max-width: 1366px;
+  max-width: 1466px;
   height: 100%;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 .Header {
@@ -259,6 +264,7 @@ button:hover {
 .Games {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .GamesItem {
@@ -658,4 +664,186 @@ button:hover {
 
 .Product-checkout-blockValue {
   font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .HeaderNav {
+    display: none;
+  }
+
+  .Ads {
+    flex-direction: column;
+    align-items: initial;
+    justify-content: initial;
+  }
+
+  .Ad {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .Ad-title,
+  .Ad-desc {
+    max-width: 40%;
+  }
+
+  .Ad-title {
+    margin-top: 10px;
+  }
+
+  .Ad-photo--controller {
+    right: 80px;
+    bottom: 0px;
+  }
+
+  /* Product */
+
+  .Product-photoSmall {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Wrapper {
+    padding: 0 20px;
+  }
+
+  .Wrapper-main {
+    flex-direction: column;
+  }
+
+  .Aside {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .Main-title {
+    text-align: center;
+  }
+
+  .MainHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MainHeader-left {
+    padding-bottom: 20px;
+  }
+
+  .MainHeader-right {
+    flex-direction: column;
+  }
+
+  .MainHeader-buttonsGroup {
+    padding: 0 0 20px;
+  }
+
+  .MainHeader-button {
+    margin: 0 10px;
+  }
+
+  .Ad-photo {
+    display: none;
+  }
+
+  .Ad {
+    text-align: center;
+    height: auto;
+    max-height: none;
+    margin-bottom: 50px;
+  }
+
+  .Ad-title,
+  .Ad-desc {
+    max-width: 100%;
+  }
+
+  .Footer-wrapper {
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+  }
+
+  .FooterTop-left {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .FooterTop-right {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .FooterTop-col--nav {
+    margin: 0 0 50px;
+  }
+
+  .FooterTop-col--address {
+    margin: 0;
+  }
+
+  .FooterBottom-copyright {
+    padding-bottom: 20px;
+  }
+
+  .FooterBottom-button {
+    margin: 0 10px;
+  }
+
+  .Product-wrapper {
+    flex-direction: column;
+  }
+
+  .Product-content {
+    width: 100%;
+  }
+
+  .Product-checkout {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Product-title,
+  .Product-breadcrumb {
+    text-align: center;
+  }
+
+  .Product-breadcrumb {
+    padding-bottom: 10px;
+  }
+
+  .Product-blockTitle,
+  .Product-blockText {
+    text-align: center;
+  }
+
+  .Product-opinion {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .Product-opinionPhoto {
+    width: 64px;
+    height: auto;
+  }
+
+  .Product-opinionLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px;
+  }
+
+  .Product-opinionUser {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Product-photosHorizontal {
+    display: none;
+  }
 }
