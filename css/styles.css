@@ -718,6 +718,12 @@ button:hover {
     text-align: center;
   }
 
+  .Main {
+    padding: 0;
+    width: 100%;
+    border-left: 0;
+  }
+
   .Main-title {
     text-align: center;
   }
