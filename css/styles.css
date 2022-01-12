@@ -666,6 +666,74 @@ button:hover {
   font-weight: 600;
 }
 
+.Login {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.Login-title {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.Login-desc {
+  font-size: 1.6rem;
+  color: #4b4d51;
+  padding-bottom: 30px;
+}
+
+.LoginForm {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.LoginForm-block {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.LoginForm-block--checkbox {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.LoginForm-label {
+  display: block;
+}
+
+.LoginForm-label--checkbox {
+}
+
+.LoginForm-checkbox {
+  margin-right: 10px;
+}
+
+.LoginForm-input {
+  border: 0;
+  background-color: #1e2127;
+  border-radius: 3px;
+  width: 100%;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+.LoginForm-input::placeholder {
+  color: #4b4d51;
+}
+
+.LoginForm-submit {
+  border-radius: 3px;
+  border: 0;
+  padding: 15px 30px;
+  width: 100%;
+  color: #000000;
+  font-weight: 600;
+  background: #ffffff;
+}
+
 @media screen and (max-width: 1200px) {
   .HeaderNav {
     display: none;
