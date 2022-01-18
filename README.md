@@ -5,7 +5,7 @@ Projekt na zaliczenie części **HTML i CSS** z laboratorium **Technologie Inter
 Uniwersytet Rzeszowski, Informatyka I st. II rok
 Wykonał: **Maciej Biel**
 
-Link do działającej wersji: https://ti-project-htmlcss.vercel.app/
+Link do działającej wersji: https://maciejb2k.github.io/ti_project_htmlcss/
 
 W pliku tym pliku została zawarta wymagana dokumentacja.
 
@@ -102,3 +102,5 @@ Strona została napisana podejściem Desktop First, jest w pełni responsywna or
 
 <img src="https://user-images.githubusercontent.com/6316812/147149318-14e3b487-96b7-4756-8e1f-ded1efbc195b.png" style="max-height: 70%"/>
 <img src="https://user-images.githubusercontent.com/6316812/147150007-01c97171-6b3d-47be-9e2d-2e909d746ec5.png" style="max-height: 70%"/>
+<img src="https://user-images.githubusercontent.com/6316812/149987808-b8253eb6-84a7-470b-8ff0-464703602855.png" style="max-height: 70%"/>
+<img src="https://user-images.githubusercontent.com/6316812/149987813-f103bd29-22ff-4323-97bc-021482d457e1.png" style="max-height: 70%"/>
