@@ -245,6 +245,7 @@ button:hover {
   padding: 0 20px;
   width: 250px;
   max-width: 250px;
+  outline: 0;
 }
 
 .MainHeader-searchInput::placeholder {
